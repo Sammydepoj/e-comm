@@ -1,0 +1,22 @@
+<html>
+<head>
+<title></title>
+<?php
+include_once('connect.php');
+session_start();
+session_destroy();
+header("location:adminlogin.php");
+?>
+<style>
+.txt{
+	padding: 5 20px;
+	font-size:18px;
+}
+</style>
+</head>
+</body>
+</html>
+</head>
+<body>
+</body>
+</html>
