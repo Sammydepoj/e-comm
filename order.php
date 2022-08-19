@@ -8,8 +8,6 @@ $useremail= $_SESSION['email'];
 ?>
 
 <style>
-
-
 body{
 	background-color:blue;
 }
@@ -18,7 +16,7 @@ body{
 	width:80%;
 	box-shadow:5px 10px 20px 10px grey;
 	display:flex;
-		background-color:white;
+	background-color:white;
 
 }
 
@@ -72,10 +70,9 @@ a:hover{
 }
 </style>
 </head>
-</body>
-</html>
-</head>
+
 <body>
+	
 <h1>Welcome <span style="color:white;"><?php echo $useremail; ?></span>to your account</h1>
 <div class="header1">
 <span class="bb"><a href="userdash.php">Home</a></span>
